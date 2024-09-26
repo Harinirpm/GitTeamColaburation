@@ -1,0 +1,86 @@
+/* Profile Page CSS */
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #007bff;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.profile-bio {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.info-item {
+    margin-bottom: 15px;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.info-value {
+    margin-left: 10px;
+    color: #555;
+    font-weight: normal;
+}
+
+.loginButton{
+    height: 50px;
+    width: 100%;
+    background-color: #555454;
+    border: 1px solid rgb(39, 19, 216) ;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.loginButton:hover{
+    background-color: #007bff;
+}
